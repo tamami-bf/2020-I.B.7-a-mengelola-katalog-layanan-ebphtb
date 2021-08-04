@@ -1,0 +1,93 @@
+== e-BPHTB
+
+image::by-sa.png[pdfwidth=25%]
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-sa/4.0/.
+
+=== Nama Layanan
+
+Aplikasi e-BPHTB
+
+=== Deskripsi layanan secara umum
+
+Layanan ini digunakan untuk melakukan pengelolaan pajak untuk jenis Bea Perolehan Hak Atas Tanah dan Bangunan (BPHTB) di Kabupaten Brebes, layanan ini digunakan oleh beberapa pihak, seperti Notaris atau PPAT/PPATS untuk melakukan pendaftaran dan verifikator di internal Badan Pendapatan Daerah Kabupaten Brebes untuk melakukan verifikasi. pegawai di internal unit kerja yang memberikan fasilitas mulai dari pendataan, penetapan, pembayaran, penagihan, dan pelaporan. 
+
+=== Detail Syarat dan Ketentuan Layanan
+
+Syarat dan ketentuan penggunaan layanan ini, bagi Notaris/PPAT dengan menghubungi Bagian Teknologi Informasi di Badan Pendapatan Daerah Kabupaten Brebes, sedangkan bagi pegawai internal akan secara otomatis dibuatkan aksesnya setelah menerima Surat Perintah Tugas untuk menjalankan kegiatannya yang berhubungan dengan pengelolaan BPHTB.
+
+=== Cakupan Pengguna
+
+Cakupan pengguna untuk layanan ini yaitu : 
+
+. Notaris adalah pejabat umum yang berwenang untuk membuat akta autentik dan memiliki kewenangan lainnya sebagaimana dimaksud dalam Undang-Undang Nomor 2 Tahun 2014 tentang Perubahan atas Undang-Undang Nomor 30 Tahun 2004 tentang Jabatan Notaris.
+. Pejabat Pembuat Akta Tanah (PPAT) yaitu pejabat umum yang diberi kewenangan untuk membuat akta-akta otentik mengenai perbuatan hukum tertentu mengenai hak atas tanah atau Hak Milik atas Satuan Rumah Susun sebagaimana tersebut dalam Peraturan Pemerintah Republik Indonesia Nomor 24 Tahun 2016 tentang Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah.
+. internal, yaitu pegawai yang melakukan pengelolaan BPHTB di Badan Pendapatan Daerah Kabupaten Brebes.
+
+=== Pengelola Layanan
+
+Pengelola layanan ini adalah fungsional pranata komputer di lingkungan internal Badan Pendapatan Daerah Kabupaten Brebes
+
+=== Waktu Berjalannya Layanan
+
+Layanan ini tersedia selama 24 jam 7 hari seminggu
+
+=== Referensi ke _template_ SLA (_Service Level Agreement_)
+
+Referensi _Service Level Agreement_ (SLA) untuk layanan ini merujuk ke dokumen https://github.com/tamami-bf/2021-sla-portal-pajak/blob/master/build/sla-layanan-ti.pdf
+
+=== _Notional Charging_
+
+Komponen biaya tetap untuk layanan pengguna ini menginduk pada biaya operasional yang digunakan Badan Pendapatan Daerah Kabupaten Brebes untuk layanan internet dan listrik.
+
+Sedangkan biaya variabel bergantung kebutuhan _server_ adalah peningkatan dari sisi memori dan tempat simpanan.
+
+=== Proses Untuk Permintaan Layanan Teknologi Informasi
+
+Proses permintaan layanan teknologi informasi untuk layanan e-BPHTB ini dilakukan dengan menghubungi Bagian Teknologi Informasi di Badan Pendapatan Daerah Kabupaten Brebes melalui beberapa kanal yang disediakan.
+
+=== Dampak operasional apabila terjadi gangguan
+
+Dampak operasional bila terjadi gangguan pada layanan e-BPHTB ini mengakibatkan beberapa pihak tidak dapat menggunakan layanan ini diantaranya :
+
+. Notaris dan PPAT/PPATS tidak dapat melakukan pendaftaran SPTPD BPHTB
+. Pegawai internal tidak dapat melakukan pengelolaan dan pelayanan BPHTB.
+
+=== Daftar Layanan Pendukung Layanan Utama 
+
+Layanan pendukung yang harus tersedia agar layanan ini dapat berjalan adalah seperti berikut :
+
+. Layanan basis data PostgreSQL
+. Layanan Sistem Operasi Windows Server 2008 R2
+
+=== Versi dan tanggal revisi 
+
+[cols="2,3", width="75%"]
+|===
+| Versi | Tanggal
+
+| 1.0 | 9 Juli 2020
+|===
+
+<<<
+
+=== Lembar Persetujuan
+
+[cols="2,1,8", width="100%", frame=none, grid=none]
+|===
+| Nama Kegiatan | : | I.B.7 - Mengelola Katalog Layanan Pengguna
+| Judul | : | Katalog Layanan Pengguna - Aplikasi e-BPHTB
+|===
+
+[cols="5,5", width="100%", frame=none, grid=none]
+|===
+^| Disetujui oleh : ^| Disusun Oleh
+^| Sekretaris ^| Selesai tanggal 9 Juli 2020
+^| Pada tanggal 9 Juli 2020 | 
+| |
+| |
+| |
+^| ^| Priyanto Tamami, S.Kom
+^| ^| 19840409 201001 1 025
+|===
